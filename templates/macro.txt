@@ -1,0 +1,15 @@
+📰 {event_title}
+
+📊 Основные показатели:
+{metrics}
+
+💡 Влияние на крипторынок:
+{impact}
+
+📈 Исторические параллели:
+{historical}
+
+⚡️ Что следить:
+{watch_list}
+
+#Macro #Market #Crypto 

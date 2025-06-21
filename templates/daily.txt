@@ -1,0 +1,70 @@
+📊 Ежедневный отчет | {date}
+
+🌍 Состояние рынка: {market_state}
+• Бычьих факторов: {bullish_factors}
+• Медвежьих факторов: {bearish_factors}
+• Основной тренд: {trend_description}
+
+🔸 Bitcoin (BTC)
+• Цена: ${btc_price:,.2f}
+• Изменение (24ч): {btc_change:+.1f}% (${btc_price_change:,.2f})
+• Объём: ${btc_volume:,.0f} (изм: {btc_volume_change:+.1f}%)
+• Активные адреса: {btc_active_addresses:,} ({btc_addresses_change:+.1f}%)
+• Транзакции (24ч): {btc_transactions:,}
+• Комиссия: {btc_fee} sat/vB
+
+🔹 Ethereum (ETH)
+• Цена: ${eth_price:,.2f}
+• Изменение (24ч): {eth_change:+.1f}% (${eth_price_change:,.2f})
+• Объём: ${eth_volume:,.0f} (изм: {eth_volume_change:+.1f}%)
+• Gas: {eth_gas} gwei
+• TVL: ${eth_tvl:,.0f} (изм: {eth_tvl_change:+.1f}%)
+
+⚡️ Solana (SOL)
+• Цена: ${sol_price:,.2f}
+• Изменение (24ч): {sol_change:+.1f}% (${sol_price_change:,.2f})
+• Объём: ${sol_volume:,.0f} (изм: {sol_volume_change:+.1f}%)
+• TPS: {sol_tps}
+• TVL: ${sol_tvl:,.0f} (изм: {sol_tvl_change:+.1f}%)
+• Комиссия: {sol_fee} SOL
+
+🟡 BNB Chain (BNB)
+• Цена: ${bnb_price:,.2f}
+• Изменение (24ч): {bnb_change:+.1f}% (${bnb_price_change:,.2f})
+• Объём: ${bnb_volume:,.0f} (изм: {bnb_volume_change:+.1f}%)
+• Gas: {bnb_gas} gwei
+• TVL: ${bnb_tvl:,.0f} (изм: {bnb_tvl_change:+.1f}%)
+
+⚡️ TRON (TRX)
+• Цена: ${trx_price:,.4f}
+• Изменение (24ч): {trx_change:+.1f}% (${trx_price_change:,.4f})
+• Объём: ${trx_volume:,.0f} (изм: {trx_volume_change:+.1f}%)
+• TPS: {trx_tps}
+• TVL: ${trx_tvl:,.0f}
+
+📈 Макроэкономика:
+
+💵 DXY: {dxy_value:.2f} {dxy_trend}
+• Изменение: {dxy_change:+.2f}%
+• Влияние на крипторынок: {dxy_impact}
+
+📊 S&P 500: {sp500_value:,.2f} {sp500_trend}
+• Изменение: {sp500_change:+.2f}%
+• Корреляция с BTC: {sp500_btc_correlation}
+
+📉 VIX: {vix_value:.2f} {vix_trend}
+• Изменение: {vix_change:+.2f}%
+• Уровень риска: {vix_risk_level}
+
+🔸 Gold: ${gold_value:,.2f} {gold_trend}
+• Изменение: {gold_change:+.2f}%
+• Корреляция с BTC: {gold_btc_correlation}
+
+📈 Тренды и объемы:
+{trending_coins}
+
+💰 Стейблкоины:
+• USDT Supply: ${usdt_supply:,.0f} (изм: {usdt_supply_change:+.1f}%)
+• USDC Supply: ${usdc_supply:,.0f} (изм: {usdc_supply_change:+.1f}%)
+
+#DailyReport #BTC #ETH #Crypto 
